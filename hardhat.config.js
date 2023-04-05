@@ -17,15 +17,15 @@ module.exports = {
           },
         },
       },
-    defaultNetwork: "Hyperspace",
+    defaultNetwork: "hyperspace",
     networks: {
-        Hyperspace: {
+        hyperspace: {
             chainId: 3141,
             url: "https://api.hyperspace.node.glif.io/rpc/v1",
             accounts: [PRIVATE_KEY],
         },
         FilecoinMainnet: {
-            chainId: 314,
+            chainId: 3141,
             url: "https://api.node.glif.io",
             accounts: [PRIVATE_KEY],
         },
